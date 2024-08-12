@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    align-items: center;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: brown; */
+
+    width: 50%;
+}
+.sidebabar{
+    width: 20%;
+    position: sticky;
+    top:0;
+    height:80vh ;
+    align-items: center;
+}
+.content{
+    width: 60%;
+}
+.logo{
+;
+}
+.rightmenu{
+    width: 20%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+.page_container{
+    display: flex;
+    margin-top: 2rem;
+}
+

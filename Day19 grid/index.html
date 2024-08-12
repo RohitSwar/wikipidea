@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .parent{
+            border: 2px solid pink; 
+            display: grid;
+            grid-template-columns: repeat(4, 120px);
+           /* grid-template-columns: 1fr 1fr 1fr;*/
+          align-items: end;
+        }
+        .children{
+            height: 20px;
+            width: 120px;
+            border: 2px solid black;
+            /*gap: 2rem;*/
+            align-items: center;
+            align-content: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+      <div class="children">1</div>        
+      <div class="children">2</div>        
+      <div class="children">3</div>        
+      <div class="children">4</div>        
+      <div class="children">5</div>        
+      <div class="children">6</div>        
+      <div class="children">7</div>        
+      <div class="children">8</div>        
+     </div>
+</body>
+</html>
